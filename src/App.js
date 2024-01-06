@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './index.css';
 import ImageDropzone from './component/ImageDropzone';
 import CompressedImagesDisplay from './component/CompressedImageDisplay';
 

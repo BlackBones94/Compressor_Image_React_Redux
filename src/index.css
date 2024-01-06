@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.image-container {
+  margin-bottom: 20px;
+  text-align: center;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  object-fit: cover;
+  width: 966px;
+
+}
+
+.button-group {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-button {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.delete-button {
+
+  margin-left: 15px;
+  background-color: #f44336; 
+  color: white;
+}
+
